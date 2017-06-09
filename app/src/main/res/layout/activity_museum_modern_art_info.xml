@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jay.tourguideapp.MuseumModernArtInfo">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="372dp"
+        android:background="@drawable/museum_of_modern_art_image"/>
+
+    <TextView
+        android:id="@+id/addressTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/address_arts_Modern_Art"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif"
+        android:background="@color/colorPrimaryDark"/>
+
+</LinearLayout>

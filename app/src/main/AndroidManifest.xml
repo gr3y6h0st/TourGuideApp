@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jay.tourguideapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".IchiranInfo" />
+        <activity android:name=".NewWonjoInfo" />
+        <activity android:name=".HagiInfo" />
+        <activity android:name=".JoesPizzaInfo" />
+        <activity android:name=".CentralParkInfo" />
+        <activity android:name=".BrooklynBridgeParkInfo" />
+        <activity android:name=".HillsParkInfo" />
+        <activity android:name=".HighLineParkInfo" />
+        <activity android:name=".MetroMuseumInfo" />
+        <activity android:name=".MuseumModernArtInfo" />
+        <activity android:name=".MuseumOfSexInfo" />
+        <activity android:name=".AmericanMuseumInfo" />
+        <activity android:name=".EmpireStateInfo" />
+        <activity android:name=".TimesSquareInfo" />
+        <activity android:name=".BrooklynBridgeInfo" />
+        <activity android:name=".StatueLibertyInfo"></activity>
+    </application>
+
+</manifest>

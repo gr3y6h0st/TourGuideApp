@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">New York Tour Guide App</string>
+    <string name="city_parks_main">City Parks</string>
+    <string name="city_restaurants_main">Restaurants</string>
+    <string name="city_artsCulture_main">Arts and Culture</string>
+    <string name="city_entertainment_main">Entertainment</string>
+
+    <string name="city_parks_Central_Park">Central Park</string>
+    <string name="city_parks_The_High_Line">The High Line Park</string>
+    <string name="city_arts_The_Museum_of_Modern_Art">The Museum of Modern Art</string>
+
+    <string name="city_restaurant_Ichiran">Ichiran</string>
+    <string name="city_restaurant_Joes">Joe\'s Pizza</string>
+    <string name="city_restaurant_Wonjo">New Wonjo</string>
+    <string name="city_restaurant_Hagi">Sake Bar Hagi</string>
+
+    <string name="address_restaurant_Joes">Address:\n7 Carmine St New York, NY 10014</string>
+    <string name="address_restaurant_Ichiran">Address:\n374 Johnson Ave, Brooklyn, NY 11206</string>
+    <string name="address_restaurant_Wonjo">Address:\n23 W 32nd St, New York, NY 10001</string>
+    <string name="address_restaurant_Hagi">Address:\n152 W 49th St, New York, NY 10019</string>
+
+
+    <string name="address_arts_Modern_Art">Address:\n111 W 53rd St, New York, NY 10019</string>
+    <string name="address_arts_American_Museum">Address:\nCentral Park West & 79th St, New York, NY 10024</string>
+    <string name="address_arts_Museum_Sex">Address:\n233 5th Ave, New York, NY 10016</string>
+    <string name="address_arts_Metro_Museum">Address:\n1000 5th Ave, New York, NY 10028</string>
+
+    <string name="address_entertainment_TimesSq">Address:\n1 Times Square, New York, NY 10036</string>
+    <string name="address_entertainment_EmpireState">Address:\n350 5th Ave, New York, NY 10118</string>
+
+
+
+
+
+
+
+    <string name="description_Brooklyn_Bridge">Description:\nThe Brooklyn Bridge is a hybrid
+        cable-stayed/suspension bridge in New York City and is one of the oldest bridges of
+        either type in the United States. Completed in 1883, it connects the boroughs of Manhattan
+        and Brooklyn by spanning the East River.
+    </string>
+
+    <string name="description_Brooklyn_Bridge_Park">Description:\nBrooklyn Bridge Park is an 85 acre
+        (34 ha) park on the Brooklyn side of the East River in New York City.
+    </string>
+
+    <string name="descrition_High_Line">Description:\nThe High Line is a 1.45 mile long linear park created on an
+        elevated section of a disused New York Central Railroad spur called the West Side Line, in
+        New York City.
+    </string>
+    <string name="description_Hills_Park">Description:\nRising 70 feet above sea-level, the Hills
+        gives visitors anew relationship with the sea and sky, offering breathtaking never-before-seen
+        views of the Statue of Liberty and New York Harbor. The opening of the Hills marks a new chapter in the
+        transformation of Governors Island from an abandoned former military base to what is
+        envisioned to be a year-round destination for recreation, culture and innovation.
+    </string>
+    <string name="description_Central_park">test</string>
+    <string name="description_Ichiran">test</string>
+    <string name="description_Joes">test</string>
+    <string name="description_Wonjo">test</string>
+    <string name="description_Hagi">test</string>
+    <string name="description_Statue_Liberty">test</string>
+    <string name="description_Times_Square">test</string>
+    <string name="description_Museum_Sex">test</string>
+    <string name="description_Museum_Art">test</string>
+    <string name="description_American_Museum">test</string>
+    <string name="description_Metro_Museum">test</string>
+    <string name="description_Empire_State">test</string>
+
+
+
+</resources>
