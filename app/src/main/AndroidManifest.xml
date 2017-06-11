@@ -11,26 +11,41 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".IchiranInfo" />
-        <activity android:name=".NewWonjoInfo" />
-        <activity android:name=".HagiInfo" />
-        <activity android:name=".JoesPizzaInfo" />
-        <activity android:name=".CentralParkInfo" />
-        <activity android:name=".BrooklynBridgeParkInfo" />
-        <activity android:name=".HillsParkInfo" />
-        <activity android:name=".HighLineParkInfo" />
-        <activity android:name=".MetroMuseumInfo" />
-        <activity android:name=".MuseumModernArtInfo" />
-        <activity android:name=".MuseumOfSexInfo" />
-        <activity android:name=".AmericanMuseumInfo" />
-        <activity android:name=".EmpireStateInfo" />
-        <activity android:name=".TimesSquareInfo" />
-        <activity android:name=".BrooklynBridgeInfo" />
-        <activity android:name=".StatueLibertyInfo"></activity>
+        <activity android:name=".IchiranInfo"
+            android:label="@string/city_restaurant_Ichiran"/>
+        <activity android:name=".NewWonjoInfo"
+            android:label="@string/city_restaurant_Wonjo"/>
+        <activity android:name=".HagiInfo"
+            android:label="@string/city_restaurant_Hagi"/>
+        <activity android:name=".JoesPizzaInfo"
+            android:label="@string/city_restaurant_Joes"/>
+        <activity android:name=".CentralParkInfo"
+            android:label="@string/city_parks_Central_Park"/>
+        <activity android:name=".BrooklynBridgeParkInfo"
+            android:label="@string/city_parks_Brooklyn"/>
+        <activity android:name=".HillsParkInfo"
+            android:label="@string/city_parks_hills"/>
+        <activity android:name=".HighLineParkInfo"
+            android:label="@string/city_parks_The_High_Line"/>
+        <activity android:name=".MetroMuseumInfo"
+            android:label="@string/city_arts_Metro"/>
+        <activity android:name=".MuseumModernArtInfo"
+            android:label="@string/city_arts_The_Museum_of_Modern_Art"/>
+        <activity android:name=".MuseumOfSexInfo"
+            android:label="@string/city_arts_Museum_Sex"/>
+        <activity android:name=".AmericanMuseumInfo"
+            android:label="@string/description_American_Museum"/>
+        <activity android:name=".EmpireStateInfo"
+            android:label="@string/city_entertainment_empire_state"/>
+        <activity android:name=".TimesSquareInfo"
+            android:label="@string/city_entertainment_timesSquare"/>
+        <activity android:name=".BrooklynBridgeInfo"
+            android:label="@string/city_entertainment_empire_state"/>
+        <activity android:name=".StatueLibertyInfo"
+            android:label="@string/city_entertainment_StatueLib"/>
     </application>
 
 </manifest>

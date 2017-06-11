@@ -17,11 +17,9 @@ import java.util.ArrayList;
  */
 public class ArtsAndCultureFragment extends Fragment {
 
-
     public ArtsAndCultureFragment() {
         // Required empty public constructor
     }
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.tour_list, container, false);
@@ -32,7 +30,6 @@ public class ArtsAndCultureFragment extends Fragment {
         ArtsCulture.add(new TourGuide("American Museum of Natural History", R.drawable.american_museum_of_natural_history_5));
         ArtsCulture.add(new TourGuide("Museum of Sex", R.drawable.museum_of_sex_1));
         ArtsCulture.add(new TourGuide("Metro Museum", R.drawable.metro_museum));
-
 
         TourGuideAdapter adapter = new TourGuideAdapter(getActivity(), ArtsCulture);
 
@@ -64,11 +61,8 @@ public class ArtsAndCultureFragment extends Fragment {
                         startActivity(metroMuseum);
                         break;
                 }
-
             }
         });
-
         return rootView;
     }
-
 }

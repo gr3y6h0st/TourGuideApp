@@ -14,7 +14,6 @@ public class TourGuide {
     /**Image associated with the current location*/
     private int mImageResourceID = NO_IMAGE_PROVIDED;
 
-
     /**Image resource ID*/
     private static final int NO_IMAGE_PROVIDED = -1;
 
@@ -33,7 +32,6 @@ public class TourGuide {
         mMoreInformation = moreInformation;
         mImageResourceID = imageResourceID;
     }
-
 
     public String getTourDescription(){
         return mTourDescription;

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
     tools:context="com.example.jay.tourguideapp.HagiInfo">
 
     <ImageView
@@ -15,11 +16,31 @@
     <TextView
         android:id="@+id/addressTextView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:text="@string/address_restaurant_Hagi"
         android:textSize="24sp"
         android:textColor="#FFFFFF"
-        android:fontFamily="sans-serif"
-        android:background="@color/colorPrimaryDark"/>
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:fontFamily="sans-serif"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/description_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/description_Hagi"
+            android:textSize="24sp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:paddingLeft="8dp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="sans-serif"/>
+
+    </ScrollView>
 
 </LinearLayout>

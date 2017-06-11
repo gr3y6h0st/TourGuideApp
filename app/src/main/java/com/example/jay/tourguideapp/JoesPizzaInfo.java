@@ -10,8 +10,5 @@ public class JoesPizzaInfo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_joes_pizza_info);
-
-        TextView address = (TextView) findViewById(R.id.addressTextView);
-
     }
 }

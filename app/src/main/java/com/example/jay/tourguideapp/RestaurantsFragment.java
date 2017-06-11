@@ -28,7 +28,6 @@ public class RestaurantsFragment extends Fragment {
     public RestaurantsFragment() {
         // Required empty public constructor
     }
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.tour_list, container, false);
@@ -45,7 +44,6 @@ public class RestaurantsFragment extends Fragment {
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 
         listView.setAdapter(adapter);
-
 
         //sets onClickListener on each item, redirects users to respective Activity if clicked
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -71,10 +69,8 @@ public class RestaurantsFragment extends Fragment {
                         startActivity(hagiInfoPage);
                         break;
                 }
-
             }
         });
-
         return rootView;
     }
 

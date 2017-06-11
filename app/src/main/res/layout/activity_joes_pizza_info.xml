@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
     tools:context="com.example.jay.tourguideapp.JoesPizzaInfo">
 
     <ImageView
@@ -16,11 +17,29 @@
     <TextView
         android:id="@+id/addressTextView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:text="@string/address_restaurant_Joes"
         android:textSize="24sp"
         android:textColor="#FFFFFF"
-        android:fontFamily="sans-serif"
-        android:background="@color/colorPrimaryDark" />
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:fontFamily="sans-serif"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:paddingLeft="8dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/description_Joes"/>
+    </ScrollView>
 
 </LinearLayout>

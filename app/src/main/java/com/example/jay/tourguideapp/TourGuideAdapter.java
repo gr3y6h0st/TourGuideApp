@@ -1,10 +1,6 @@
 package com.example.jay.tourguideapp;
 
-import android.annotation.TargetApi;
-import android.app.Activity;
 import android.content.Context;
-import android.os.Build;
-import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,7 +8,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 /**
@@ -28,7 +23,6 @@ public class TourGuideAdapter extends ArrayAdapter<TourGuide> {
         // going to use this second argument, so it can be any value. Here, we used 0.
         super(context, 0, tours);
     }
-
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         // Check if the existing view is being reused, otherwise inflate the view

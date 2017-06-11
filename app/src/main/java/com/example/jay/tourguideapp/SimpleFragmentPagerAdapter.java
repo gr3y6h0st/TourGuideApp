@@ -18,10 +18,7 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
     public SimpleFragmentPagerAdapter(Context context, FragmentManager fm) {
         super(fm);
         mContext = context;
-
-
     }
-
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0) {
@@ -34,7 +31,6 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
             return mContext.getString(R.string.city_restaurants_main);
         }
     }
-
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
@@ -47,7 +43,6 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
             return new RestaurantsFragment();
         }
     }
-
     @Override
     public int getCount() {
         return 4;

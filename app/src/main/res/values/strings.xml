@@ -7,7 +7,20 @@
 
     <string name="city_parks_Central_Park">Central Park</string>
     <string name="city_parks_The_High_Line">The High Line Park</string>
+    <string name="city_parks_Brooklyn">Brooklyn Bridge Park</string>
+    <string name="city_parks_hills">The Hills Park</string>
+
     <string name="city_arts_The_Museum_of_Modern_Art">The Museum of Modern Art</string>
+    <string name="city_arts_American">American Museum of Natural History</string>
+    <string name="city_arts_Museum_Sex">Museum of Sex</string>
+    <string name="city_arts_Metro">Metro Museum</string>
+
+    <string name="city_entertainment_StatueLib">Statue of Liberty</string>
+    <string name="city_entertainment_timesSquare">Times Square</string>
+    <string name="city_entertainment_empire_state">Empire State Building</string>
+    <string name="city_entertainment_brooklyn">Brooklyn Bridge</string>
+
+
 
     <string name="city_restaurant_Ichiran">Ichiran</string>
     <string name="city_restaurant_Joes">Joe\'s Pizza</string>
@@ -21,14 +34,12 @@
 
 
     <string name="address_arts_Modern_Art">Address:\n111 W 53rd St, New York, NY 10019</string>
-    <string name="address_arts_American_Museum">Address:\nCentral Park West & 79th St, New York, NY 10024</string>
+    <string name="address_arts_American_Museum">Address:\nCentral Park West and 79th St, New York, NY 10024</string>
     <string name="address_arts_Museum_Sex">Address:\n233 5th Ave, New York, NY 10016</string>
     <string name="address_arts_Metro_Museum">Address:\n1000 5th Ave, New York, NY 10028</string>
 
     <string name="address_entertainment_TimesSq">Address:\n1 Times Square, New York, NY 10036</string>
     <string name="address_entertainment_EmpireState">Address:\n350 5th Ave, New York, NY 10118</string>
-
-
 
 
 
@@ -44,28 +55,55 @@
         (34 ha) park on the Brooklyn side of the East River in New York City.
     </string>
 
-    <string name="descrition_High_Line">Description:\nThe High Line is a 1.45 mile long linear park created on an
+    <string name="description_High_Line">Description:\nThe High Line is a 1.45 mile long linear park created on an
         elevated section of a disused New York Central Railroad spur called the West Side Line, in
         New York City.
     </string>
+
     <string name="description_Hills_Park">Description:\nRising 70 feet above sea-level, the Hills
         gives visitors anew relationship with the sea and sky, offering breathtaking never-before-seen
         views of the Statue of Liberty and New York Harbor. The opening of the Hills marks a new chapter in the
         transformation of Governors Island from an abandoned former military base to what is
         envisioned to be a year-round destination for recreation, culture and innovation.
     </string>
-    <string name="description_Central_park">test</string>
-    <string name="description_Ichiran">test</string>
-    <string name="description_Joes">test</string>
-    <string name="description_Wonjo">test</string>
-    <string name="description_Hagi">test</string>
-    <string name="description_Statue_Liberty">test</string>
-    <string name="description_Times_Square">test</string>
-    <string name="description_Museum_Sex">test</string>
-    <string name="description_Museum_Art">test</string>
-    <string name="description_American_Museum">test</string>
-    <string name="description_Metro_Museum">test</string>
-    <string name="description_Empire_State">test</string>
+
+    <string name="description_Central_park">Central Park is an urban park in Manhattan, New York City.
+        Central Park is the most visited urban park in the United States, with 40 million visitors in 2013,
+        and one of the most filmed locations in the world.</string>
+
+    <string name="description_Ichiran">Branch of a Japanese chain preparing bowls of ramen served at
+        tables or solo booths with no tipping.</string>
+
+    <string name="description_Joes">West Village locals have depended on this counter-service
+        pizzeria for quick slices since 1975.</string>
+
+    <string name="description_Wonjo">Always-open Korean BBQ mainstay distinguishing itself with charcoal-fueled grills.</string>
+
+    <string name="description_Hagi">Vibrant, open-late downstairs den offering a large menu of Japanese bites plus beer and sake.</string>
+
+    <string name="description_Statue_Liberty">The Statue of Liberty is a colossal neoclassical
+        sculpture on Liberty Island in New York Harbor in New York City, in the United States. Wikipedia</string>
+
+    <string name="description_Times_Square">Times Square is a major commercial intersection, tourist
+        destination, entertainment center and neighborhood in the Midtown Manhattan section of
+        New York City at the junction of Broadway and Seventh Avenue. </string>
+
+    <string name="description_Museum_Sex">The Museum of Sex, also known as MoSex, is a sex museum
+        located at 233 Fifth Avenue at the corner of East 27th Street in Manhattan, New York City.
+        It opened on October 5, 2002.</string>
+
+    <string name="description_Museum_Art">The Museum of Modern Art is an art museum located in
+        Midtown Manhattan in New York City, on 53rd Street between Fifth and Sixth Avenues.</string>
+
+    <string name="description_American_Museum">The American Museum of Natural History, located on
+        the Upper West Side of Manhattan, New York City, is one of the largest museums in the world.</string>
+
+    <string name="description_Metro_Museum">The Metropolitan Museum of Art, colloquially "the Met,"
+        is located in New York City and is the largest art museum in the United States, and is among
+        the most visited art museums in the world. </string>
+
+    <string name="description_Empire_State">The Empire State Building is a 102-story skyscraper located
+        on Fifth Avenue between West 33rd and 34th Streets in Midtown, Manhattan, New York City. </string>
 
 
 

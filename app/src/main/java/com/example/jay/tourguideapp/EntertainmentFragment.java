@@ -18,12 +18,9 @@ import java.util.ArrayList;
  */
 public class EntertainmentFragment extends Fragment {
 
-
     public EntertainmentFragment() {
         // Required empty public constructor
     }
-
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.tour_list, container, false);
@@ -65,11 +62,8 @@ public class EntertainmentFragment extends Fragment {
                         startActivity(brooklynBridge);
                         break;
                 }
-
             }
         });
-
         return rootView;
     }
-
 }
