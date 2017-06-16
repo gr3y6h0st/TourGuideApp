@@ -26,7 +26,7 @@
             android:paddingTop="8dp"
             android:paddingLeft="8dp"
             android:text="@string/description_High_Line"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/colorWhite"
             android:textSize="24sp" />
 
     </ScrollView>

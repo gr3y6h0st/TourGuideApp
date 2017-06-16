@@ -34,10 +34,10 @@ public class RestaurantsFragment extends Fragment {
         //create ArrayList of Restaurant places
         final ArrayList<TourGuide> Restaurants = new ArrayList<TourGuide>();
 
-        Restaurants.add(new TourGuide("Ichiran", "Japanese Ramen", R.drawable.ichiran_restaurant));
-        Restaurants.add(new TourGuide("New Wonjo", "Korean BBQ", R.drawable.wonjo_restaurant));
-        Restaurants.add(new TourGuide("Joe's Pizza", "Italian", R.drawable.joes_pizza));
-        Restaurants.add(new TourGuide("Sake Bar Hagi", "Japanese Beer & Sake", R.drawable.sake_bar_hagi));
+        Restaurants.add(new TourGuide(getString(R.string.IchiranTitle), getString(R.string.Ichiran_Info), R.drawable.ichiran_restaurant));
+        Restaurants.add(new TourGuide(getString(R.string.WonjoTitle), getString(R.string.WonjoInfo), R.drawable.wonjo_restaurant));
+        Restaurants.add(new TourGuide(getString(R.string.JoesTitle), getString(R.string.JoesInfo), R.drawable.joes_pizza));
+        Restaurants.add(new TourGuide(getString(R.string.HagiTitle), getString(R.string.HagiInfo), R.drawable.sake_bar_hagi));
 
         TourGuideAdapter adapter = new TourGuideAdapter(getActivity(), Restaurants);
 

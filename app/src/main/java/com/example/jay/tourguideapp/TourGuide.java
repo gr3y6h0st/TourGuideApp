@@ -38,7 +38,7 @@ public class TourGuide {
     }
 
     public String getMoreInformation(){
-        return mMoreInformation; //hyperlink to redirect user to open website
+        return mMoreInformation;
     }
 
     public int getImageResourceID(){

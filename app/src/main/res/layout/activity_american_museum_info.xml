@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:text="@string/address_arts_American_Museum"
         android:textSize="24sp"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/colorWhite"
         android:paddingBottom="8dp"
         android:paddingTop="8dp"
         android:paddingLeft="8dp"
@@ -38,7 +38,7 @@
             android:paddingBottom="8dp"
             android:paddingTop="8dp"
             android:paddingLeft="8dp"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/colorWhite"
             android:fontFamily="sans-serif"/>
 
     </ScrollView>

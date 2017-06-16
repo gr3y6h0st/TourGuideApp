@@ -27,10 +27,10 @@ public class EntertainmentFragment extends Fragment {
         //create ArrayList of Entertainment places
         final ArrayList<TourGuide> Entertainment = new ArrayList<TourGuide>();
 
-        Entertainment.add(new TourGuide("Times Square", R.drawable.times_squar));
-        Entertainment.add(new TourGuide("Statue of Liberty", R.drawable.statute_liberty));
-        Entertainment.add(new TourGuide("Empire State Building", R.drawable.empire_state_bldg));
-        Entertainment.add(new TourGuide("Brooklyn Bridge", R.drawable.brooklyn_bridge));
+        Entertainment.add(new TourGuide(getString(R.string.city_entertainment_timesSquare), R.drawable.times_squar));
+        Entertainment.add(new TourGuide(getString(R.string.city_entertainment_StatueLib), R.drawable.statute_liberty));
+        Entertainment.add(new TourGuide(getString(R.string.city_entertainment_empire_state), R.drawable.empire_state_bldg));
+        Entertainment.add(new TourGuide(getString(R.string.city_entertainment_brooklyn), R.drawable.brooklyn_bridge));
 
         TourGuideAdapter adapter = new TourGuideAdapter(getActivity(), Entertainment);
 

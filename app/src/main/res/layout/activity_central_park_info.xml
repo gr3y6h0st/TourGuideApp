@@ -18,7 +18,7 @@
         android:layout_height="match_parent"
         android:text="@string/description_Central_park"
         android:textSize="24sp"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/colorWhite"
         android:paddingBottom="8dp"
         android:paddingTop="8dp"
         android:paddingLeft="8dp"

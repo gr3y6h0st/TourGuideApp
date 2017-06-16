@@ -25,10 +25,10 @@ public class CityParksFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.tour_list, container, false);
         //create ArrayList of CityParks
         final ArrayList<TourGuide> CityParks = new ArrayList<TourGuide>();
-        CityParks.add(new TourGuide("Central Park", R.drawable.central_park_manhattan));
-        CityParks.add(new TourGuide("Brooklyn Bridge Park", R.drawable.brooklyn_bridge_park));
-        CityParks.add(new TourGuide("The High Line Park", R.drawable.the_high_line_park));
-        CityParks.add(new TourGuide("The Hills Park", R.drawable.the_hills_park));
+        CityParks.add(new TourGuide(getString(R.string.city_parks_Central_Park), R.drawable.central_park_manhattan));
+        CityParks.add(new TourGuide(getString(R.string.city_parks_Brooklyn), R.drawable.brooklyn_bridge_park));
+        CityParks.add(new TourGuide(getString(R.string.city_parks_The_High_Line), R.drawable.the_high_line_park));
+        CityParks.add(new TourGuide(getString(R.string.city_parks_hills), R.drawable.the_hills_park));
 
         TourGuideAdapter adapter = new TourGuideAdapter(getActivity(), CityParks);
 

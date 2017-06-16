@@ -26,10 +26,10 @@ public class ArtsAndCultureFragment extends Fragment {
         //create ArrayList of ArtsAndCulture
         //create ArrayList of Artsy places
         final ArrayList<TourGuide> ArtsCulture = new ArrayList<TourGuide>();
-        ArtsCulture.add(new TourGuide("Museum of Modern Art", R.drawable.museum_of_modern_art_image));
-        ArtsCulture.add(new TourGuide("American Museum of Natural History", R.drawable.american_museum_of_natural_history_5));
-        ArtsCulture.add(new TourGuide("Museum of Sex", R.drawable.museum_of_sex_1));
-        ArtsCulture.add(new TourGuide("Metro Museum", R.drawable.metro_museum));
+        ArtsCulture.add(new TourGuide(getString(R.string.city_arts_The_Museum_of_Modern_Art), R.drawable.museum_of_modern_art_image));
+        ArtsCulture.add(new TourGuide(getString(R.string.city_arts_American), R.drawable.american_museum_of_natural_history_5));
+        ArtsCulture.add(new TourGuide(getString(R.string.city_arts_Museum_Sex), R.drawable.museum_of_sex_1));
+        ArtsCulture.add(new TourGuide(getString(R.string.city_arts_Metro), R.drawable.metro_museum));
 
         TourGuideAdapter adapter = new TourGuideAdapter(getActivity(), ArtsCulture);
 
